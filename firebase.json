@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "appHosting": {
+      "backend": {
+        "source": "./backend"
+      },
+      "public": "./frontend/build"
+    }
+  }
+}

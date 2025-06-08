@@ -1,11 +1,14 @@
 {
-  "hosting": {
-    "appHosting": {
-      "backend": {
-        "source": "./backend"
-      },
-      "public": "./frontend/build",
-      "buildCommand": "cd frontend && npm install && npm run build"
-    }
+  "apphosting": {
+    "backendId": "projetoslim",
+    "rootDir": "/",
+    "ignore": [
+      "node_modules",
+      ".git",
+      "firebase-debug.log",
+      "firebase-debug.*.log",
+      "functions"
+    ],
+    "alwaysDeployFromSource": true
   }
 }

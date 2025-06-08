@@ -4,7 +4,8 @@
       "backend": {
         "source": "./backend"
       },
-      "public": "./frontend/build"
+      "public": "./frontend/build",
+      "buildCommand": "cd frontend && npm install && npm run build"
     }
   }
 }
